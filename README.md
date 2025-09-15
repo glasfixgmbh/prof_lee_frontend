@@ -1,70 +1,132 @@
-# Getting Started with Create React App
+**Projektplanung**
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**Projektname:** Produkt-Informationssystem (Medikamenten-App)  
+**Version:** 2.0 (Überarbeitet)  
+**Datum:** 10.09.2025  
+**Basiert auf:** Genesis-Dokument vom 09.09.2025
 
-## Available Scripts
+**1\. Projektbeschreibung**
 
-In the project directory, you can run:
+Ziel des Projektes ist die Entwicklung einer **Webanwendung**, die eine **Produktliste (Medikamente)** mit **Detailseiten** anbietet.  
+Die Anwendung soll Nutzern ermöglichen:
 
-### `npm start`
+- sich einzuloggen,
+- ihre Krankenakte einzusehen (geschützt durch privaten PIN),
+- Dateien verschlüsselt zu speichern,
+- sowie ein minimalistisches, funktionales User Interface zu verwenden.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Das Projekt basiert auf den Anforderungen vom 09.09.2025 und wird nun in einem klaren **4-Monats-Zeitraum** mit insgesamt **8 Sprints** umgesetzt.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+**2\. Projektzeitraum**
 
-### `npm test`
+- **Gesamtdauer:** 10.09.2025 – 09.01.2026
+- **Gesamtlaufzeit:** 4 Monate
+- **Summe der Sprints:** 8
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+**3\. Roadmap der Sprints**
 
-### `npm run build`
+**Sprint 1 (10.09.2025 – 24.09.2025)**
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+**Ziel:**
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Fertigstellen der Sprint-Dokumente
+- Gestaltung des User-Interfaces (Wireframe, rudimentäres UX-Design)
+- Fertigstellung des API-Backends
+- Speicherung von Dateien in der Datenbank
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+**Mitglieder:**
 
-### `npm run eject`
+- Patrick Heinz
+- Daniel Krumm
+- Ali Khorsandfard
+- Julia Klammer
+- Yelyzaveta Dudova
+- Sonja Lind-Hetfeld
+- Alexander Schlagan
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+**Dokumente:**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- Wireframe
+- Use-Case-Diagramm
+- Netzplan
+- Kostenrechnung
+- Entity-Diagramm
+- Database-Diagramm
+- Ablaufdiagramm
+- Sprint-Dokument
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+**Lieferung:**
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- Minimalistische App (Prototyp)
+- Studienteilnehmer-Login-Prozess
+- Studienteilnehmer-Krankenakte mit privatem PIN lesbar
+- Vereinfachte Krankenakte muss hinzugefügt werden, als einfacher Text mit TextBoxen
+- Alle Dateien der Studienteilnehmer sind verschlüsselt (außer Studienteilnehmer-ID)
+- Minimalistisches und praktisches User Interface
+- Ein einfaches Registrierungsfenster
 
-## Learn More
+**Sprint 2 (24.09.2025 – 08.10.2025)**
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+**Ziele und Inhalte:**
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- Aufbau auf Sprint 1
+- Erweiterung der Funktionalitäten (Details folgen in Sprintplanung)
 
-### Code Splitting
+**Sprint 3 (08.10.2025 – 22.10.2025)**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+(Details werden während der Sprintplanung ergänzt)
 
-### Analyzing the Bundle Size
+**Sprint 4 (22.10.2025 – 05.11.2025)**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+(Details werden während der Sprintplanung ergänzt)
 
-### Making a Progressive Web App
+**Sprint 5 (05.11.2025 – 19.11.2025)**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+(Details werden während der Sprintplanung ergänzt)
 
-### Advanced Configuration
+**Sprint 6 (19.11.2025 – 03.12.2025)**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+(Details werden während der Sprintplanung ergänzt)
 
-### Deployment
+**Sprint 7 (03.12.2025 – 17.12.2025)**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+(Details werden während der Sprintplanung ergänzt)
 
-### `npm run build` fails to minify
+**Sprint 8 (17.12.2025 – 09.01.2026)**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+**Ziel:**
+
+- Fertigstellung und Abschluss des Projekts
+- Lieferung der finalen Anwendung
+- Abschlussdokumentation
+
+**4\. Technische Rahmenbedingungen**
+
+- **Frontend:** React.js
+- **Backend:** noch zu spezifizieren (z. B. Node.js, Spring Boot)
+- **Datenbank:** Speicherung von Dateien + Produktinformationen
+- **Sicherheit:**
+  - Verschlüsselung aller Dateien (außer Studienteilnehmer-ID)
+  - Private PIN als Zugriffsschutz
+  - DSGVO-konforme Datenverarbeitung
+
+**5\. Risiken & Annahmen**
+
+**Risiken:**
+
+- Verzögerungen durch Komplexität bei Verschlüsselung und PIN-Handling
+- Unerfahrenheit im UX-Design
+
+**Annahmen:**
+
+- Alle Teammitglieder stehen für die Projektdauer zur Verfügung
+- Entwicklungsumgebung (Frontend/Backend/DB) ist eingerichtet
+- Sichere Server-Infrastruktur vorhanden
+
+**6\. Glossar**
+
+- **Wireframe:** Skizze der Benutzeroberfläche
+- **Use-Case-Diagramm:** Darstellung von Anwendungsfällen und Akteuren
+- **Netzplan:** Projektplan mit Abhängigkeiten
+- **Entity-Diagramm:** Modellierung der Datenbank-Entitäten
+- **DSGVO:** Datenschutz-Grundverordnung (EU)
