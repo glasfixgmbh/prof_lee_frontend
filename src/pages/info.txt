@@ -1,0 +1,4 @@
+out web application or our Desktop app , can have multiple pages , like :
+login , register , shop , contact etc....
+in this folder for each page we create one react component! so simple 
+ 
