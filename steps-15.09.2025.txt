@@ -27,6 +27,18 @@ also wir haben alle linen in index.css entfernt
             @tailwind components;
             @tailwind utilities;
 
+3: more clean up . remove performance motitoring , also create app folder structure . 
+then install react router dom: 
+npm install react-router-dom
+
+why npm install react-router-dom ??  because if we are developing web application , we shall install router-dom , dom is for :
+Document Object Model , it is for Web , install react-router do not work on web! because it is for 
+cross platform applications. 
+
+Aufgabe: 
+verlinken Alle Siten! dann mit url , zugriffbar sein!
+
+
 
 
 
