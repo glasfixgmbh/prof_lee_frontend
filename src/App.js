@@ -1,7 +1,9 @@
 function App() {
   return (
     <div className="App">
-      hello world from app.js
+      <div className="bg-blue-500">
+          hello world from app.js
+      </div>
     </div>
   );
 }
