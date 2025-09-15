@@ -1,0 +1,32 @@
+date : 15.09.2025
+    was ist Single page App
+    was ist AAA
+    was ist Webserver
+    wiederholung HTTP Request life cylce
+
+step 1: Clean up : löschen all unnötigten datai für unsere Projekt . nur App.js , index.css , index.js and reportWebVitals.js 
+bleibt dort.
+also wir haben alle linen in index.css entfernt
+
+2: installation von tailwind css
+   2.1 : npm install -D tailwindcss@3
+   2.2 : npx tailwindcss init   
+   2.3 : in tailwind.config.js 
+                /** @type {import('tailwindcss').Config} */
+                module.exports = {
+                content: [
+                    "./src/**/*.{js,jsx,ts,tsx}",
+                ],
+                theme: {
+                    extend: {},
+                },
+                plugins: [],
+                }
+    2.5: in index.css 
+            @tailwind base;
+            @tailwind components;
+            @tailwind utilities;
+
+
+
+
