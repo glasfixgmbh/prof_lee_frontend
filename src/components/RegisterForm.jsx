@@ -4,21 +4,7 @@ import EmailIcon from "../ui/EmailIcon";
 import TextInput from "../ui/TextInput";
 function RegisterForm() {
   return (
-    <FormWrapper name="Registerirung">
-      <div class="flex flex-col w-full md:w-1/2 xl:w-2/5 2xl:w-2/5 3xl:w-1/3 mx-auto p-8 md:p-10 2xl:p-12 3xl:p-14 bg-[#ffffff] rounded-2xl shadow-xl">
-        <div class="flex flex-row gap-3 pb-4">
-          <div>
-            {/* <img src="/favicon.svg" alt="Logo" width="50">
-             */}
-          </div>
-
-          <h1 class="text-3xl font-bold text-[#4B5563] text-[#4B5563] my-auto">
-            Your Company
-          </h1>
-        </div>
-        <div class="text-sm font-light text-[#6B7280] pb-8 ">
-          Sign up for an account on Your Company.
-        </div>
+    <FormWrapper name="Registerirung" description="you can register yourself">
 
         <form class="flex flex-col">
           <div class="pb-2">
@@ -162,7 +148,7 @@ function RegisterForm() {
             </button>
           </div>
         </form>
-      </div>
+
       
     </FormWrapper>
   );
