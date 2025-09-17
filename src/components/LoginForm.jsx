@@ -1,8 +1,10 @@
-import React, { Fragment } from "react";
+import React from "react";
+import FormWrapper from "./FormWrapper";
+import { Link } from "react-router-dom";
 
 function LoginForm() {
   return (
-    <Fragment>
+    <FormWrapper name="einloggen">
       <div className="mb-4 w-full">
         <label for="5d040c62-206a-4178-8905-005b8e0bb000"></label>
         <input
@@ -29,7 +31,18 @@ function LoginForm() {
       >
         senden
       </button>
-    </Fragment>
+      <p className="mt-6 text-center text-sm text-gray-600">
+        haben Sie Kein Konto?
+        {
+          <Link
+            to="/register"
+            className="font-medium text-blue-600 hover:text-blue-500"
+          >
+            Register
+          </Link>
+        }
+      </p>
+    </FormWrapper>
   );
 }
 
