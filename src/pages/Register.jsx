@@ -5,6 +5,7 @@ function Register() {
   return (
     <Fragment>
         <RegisterForm/>
+        
     </Fragment>
   )
 }
