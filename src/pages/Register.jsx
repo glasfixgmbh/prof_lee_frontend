@@ -1,8 +1,16 @@
-import React from 'react'
+import React, { Fragment } from 'react'
+import HelloComponent from "../components/Hello";
+import GoodByeComponent from "../components/GoodBye"; 
+import NavbarComponent from "../components/Navbar";
 
 function Register() {
   return (
-    <div>Register</div>
+    <Fragment>
+      <NavbarComponent/>
+      <div>Register</div>
+      <HelloComponent/>
+      <GoodByeComponent/>
+    </Fragment>
   )
 }
 
