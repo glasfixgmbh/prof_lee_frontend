@@ -38,6 +38,8 @@ cross platform applications.
 Aufgabe: 
 verlinken Alle Siten! dann mit url , zugriffbar sein!
 
+erstelle ine default route mit einer 404 seite
+
 
 
 

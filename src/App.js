@@ -2,6 +2,9 @@ import React from 'react'
 import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 import LoginPage from "./pages/Login";
 import RegisterPage from "./pages/Register";
+import ShopPage from "./pages/Shop";
+import DashboardPage from "./pages/Dashboard";
+import ContactPage from "./pages/Contact";
 function App() {
   return (
     /**Router wrap all app! it means it is available for whole of application. please let index simple! do not add route to index, please!!! */
@@ -12,6 +15,9 @@ function App() {
           <Route path="/" element={<Navigate replace to="/login"/>}/>
           <Route path="/login" element={<LoginPage/>}/>
           <Route path='/register' element={<RegisterPage/>}/>
+          <Route path='/shop' element={<ShopPage/>}/>
+          <Route path='/dashboard' element={<DashboardPage/>}/>
+          <Route path='/contact' element={<ContactPage/>}/>
       </Routes>
     </Router>
   );

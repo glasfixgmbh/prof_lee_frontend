@@ -2,5 +2,5 @@ this is place for keeping all App Context information:
 what is context : 
 context is in realiy data that shall be shared in whole application
 like :
-user firs name or user permissions , this information usually needed on all pages. 
+user first name or user permissions , this information is usually needed on all pages. 
 another example is : shopping card (Einkaufs wagen )
