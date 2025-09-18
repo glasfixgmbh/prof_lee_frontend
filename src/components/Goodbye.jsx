@@ -1,9 +1,7 @@
-import React from 'react'
+import React from "react";
 
 function Goodbye() {
-  return (
-    <div className='bg-blue-500'>Goodbye</div>
-  )
+  return <div className="bg-blue-500">Goodbye</div>;
 }
 
-export default Goodbye
+export default Goodbye;
