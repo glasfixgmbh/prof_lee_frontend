@@ -1,8 +1,12 @@
-import React from 'react'
+import React, { Fragment } from 'react'
+import RegisterForm from '../components/RegisterForm'
 
 function Shop() {
   return (
-    <div>Shop</div>
+    <Fragment>
+
+      <RegisterForm/>
+    </Fragment>
   )
 }
 

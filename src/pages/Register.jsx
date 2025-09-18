@@ -1,9 +1,12 @@
-import React from 'react'
+import React, { Fragment } from 'react';
+import RegisterForm from '../components/RegisterForm';
 
-function Login() {
+function Register() {
   return (
-    <div>Login</div>
+    <Fragment>
+    <RegisterForm/>
+    </Fragment>
   )
 }
 
-export default Login
+export default Register
