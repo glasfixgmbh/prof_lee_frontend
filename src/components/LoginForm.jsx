@@ -10,18 +10,25 @@ import SocialMediaButtons from "../ui/SocialMediaButtons";
 import GitHubIcon from "../ui/GitHubIcon";
 import TwitterIcon from "../ui/TwitterIcon";  
 import LinkText from "../ui/LinkText";
+import { useState } from "react";
 
-function LoginForm() {
+function LoginForm(props) {
+  const [myText, SetMyTExt] = useState("Hallo Welt");
   return (
     <FormWrapper name="Einloggen">
-     <TextInput placeholder="Geben Sie bitte Ihre E-Mail ein" labelName="Email">
+      <div>
+        What we type:{myText}
+      </div>
+     <TextInput placeholder="Geben Sie bitte Ihre E-Mail ein" labelName="Email" onKeyUp={(e) => SetMyTExt(e.target.value)}>
+      
             <EmailIcon/>
           </TextInput>
 
       <PasswordInput placeholder="Geben Sie bitte Ihr Passwort ein" labelName="Passwort">
             <PasswordIcon/>
           </PasswordInput>
-      <Button text="Senden"> 
+      <Button text="Senden" onClick={(e) => props.setClickCounter("it is clicked")}> 
+        
           </Button>
            <LinkText prefixText="Haben Sie noch kein Konto?"
           link="/Register"
