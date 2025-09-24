@@ -1,4 +1,4 @@
-import React, { Fragment } from "react";
+import React, { Fragment, useEffect } from "react";
 import UserItemsWithPicture from "../components/UserItemsWithPicture";
 
 function DashboardPage() {
@@ -7,6 +7,9 @@ function DashboardPage() {
       .then((res) => res.json())
       .then(console.log);
   };
+  useEffect=()=>{
+    
+  }
   return (
     <Fragment>
       <div className="bg-white shadow-md rounded-md overflow-hidden max-w-lg mx-auto mt-16">
