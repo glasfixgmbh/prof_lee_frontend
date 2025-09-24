@@ -1,8 +1,11 @@
-import React from 'react'
+import React, { Fragment } from 'react'
 
 function Contact() {
   return (
-    <div>Contact</div>
+    <Fragment>
+      <div>Contact</div>
+      <div>form contact</div>
+    </Fragment>
   )
 }
 
