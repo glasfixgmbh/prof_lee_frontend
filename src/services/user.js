@@ -6,7 +6,7 @@ import { get } from "./apiClient";
  * @param {*} limit 
  */
 export const getUsers = async (setLoading, setUsers, limit) => {
-    const url = limit ? "/users?limit=" + limit : "/users?limit=10";
+    const url = "/users?limit=" + limit;
   try {
     const data = await get(url);
     setUsers(data.users);
