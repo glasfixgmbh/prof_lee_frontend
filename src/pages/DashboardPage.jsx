@@ -1,25 +1,14 @@
 import React, { Fragment, useState, useEffect } from "react";
 import UserItemsWithPicture from "../components/UserItemsWithPicture";
-import { get } from "../services/apiClient.js";
+import {getUsers} from "../services/user"
 
 function DashboardPage() {
   const [users, setUsers] = useState([]);
   const [loading, setLoading] = useState(true);
 
-  const fetchUsers = async () => {
-    try {
-      const data = await get("/users?limit=3");
-      setUsers(data.users);
-      console.log(data.users);
-    } catch (error) {
-      console.error("Error fetching users:", error);
-    } finally {
-      setLoading(false);
-    }
-  };
 
   useEffect(() => {
-    fetchUsers();
+   getUsers(setLoading,setUsers,4)
   }, []);
 
   if (loading) {
